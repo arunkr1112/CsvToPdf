@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>GoogleDriveManupulation</groupId>
+  <artifactId>com.arun.GoogleManupulation</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>GoogleManupulation</name>
+  <!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-drive -->
+<dependencies>
+<dependency>
+    <groupId>com.google.apis</groupId>
+    <artifactId>google-api-services-drive</artifactId>
+    <version>v3-rev105-1.23.0</version>
+
+</dependency>
+ 
+<!-- https://mvnrepository.com/artifact/com.google.api-client/google-api-client -->
+<dependency>
+    <groupId>com.google.api-client</groupId>
+    <artifactId>google-api-client</artifactId>
+    <version>1.23.0</version>
+</dependency>
+ 
+<!-- https://mvnrepository.com/artifact/com.google.oauth-client/google-oauth-client-jetty -->
+<dependency>
+    <groupId>com.google.oauth-client</groupId>
+    <artifactId>google-oauth-client-jetty</artifactId>
+    <version>1.23.0</version>
+</dependency>
+<!-- pested dependency of CsvToPdf project is below  -->
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-support</artifactId>
+			<version>2.0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity-tools</artifactId>
+			<version>2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.xhtmlrenderer</groupId>
+			<artifactId>flying-saucer-pdf</artifactId>
+			<version>9.1.9</version>
+		</dependency>
+
+<!-- pested dependency of CsvToPdf project is above -->
+
+	   <!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.2</version>
+</dependency>
+
+  </dependencies>
+</project>

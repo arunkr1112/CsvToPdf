@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+ table{
+ font-family:arial;
+ width:90%;
+ border-collapse:collapse;
+ font-size:20px;
+ font-weight:bold;
+ }
+ th{
+ background-color:#dddddd;
+ }
+ td,th
+ {
+ border:1px solid black;
+ text-align:left;
+ padding :8px;
+ }
+ </style>
+</head>
+<body>
+<section style="width:100%;">
+    <div style="width:90%;margin:auto;" >
+    <img src="stlogo.png" alt="logo" style="width:150px;"></img>
+      <div style="text-align:center;margin-left:130px;margin-top:-50px;width:80%; font-faimly:monospace;font-weight:;font-size:35px;">
+    <span style="color: rgb(0, 92, 153);">Stanra </span><span style="color:#3c3c3c;">Tech Solutions Pvt Ltd  </span>
+      </div>
+    </div>
+     <br></br>
+     <hr style="color:gray;width:90%;margin:auto;"></hr>
+    <div style="width:90%;margin:auto;">
+      <div>
+      <br> </br>
+      <br> </br>
+      <b> <h1 style="text-align:center;">Salary Slip </h1></b>
+      </div>
+         <div style="font-size:20px;" >
+      <b>
+      <p> Employee Id: ${customTemplate.empid} <br/>
+       Name of Employee: ${customTemplate.name} <br/>
+       Month: ${customTemplate.Date} <br/>
+       No. of Working Days: ${customTemplate.no_of_working_day}<br/>
+       Total no.of Working Days: ${customTemplate.total_working_days}<br/> 
+       Mode of Payment: ${customTemplate.payment_mode}</p>
+      </b>
+          </div> 
+        <br/>
+      <div>
+       <table>
+           <tr>
+                <th>Particulars</th>
+                <th>Amount</th>
+           </tr>
+           <tr>
+           <td> Basic</td>
+           <td> Rs ${customTemplate.basic}</td>
+           </tr>
+           <tr>
+           <td>HRA </td>
+           <td> Rs ${customTemplate.hra}</td>
+           </tr>
+           <tr>
+           <td>Travel Allowance </td>
+           <td> Rs ${customTemplate.travel}</td>
+           </tr>
+           <tr>
+           <td> Medical Reimbursements</td>
+           <td> Rs ${customTemplate.medical}</td>
+           </tr>
+           <tr>
+           <td> Total</td>
+           <td>Rs ${customTemplate.total}</td>
+           </tr>
+       </table>
+      </div>
+      
+    <br/>
+    <div style="font-size:20px;">
+    <img src="abc2.png" alt="sign" style="width:100px;"></img>
+    <b><p>For Stanra Tech Solutions Pvt. Ltd.<br/>Authorised Signatory</p></b>
+    </div>
+    <br/>
+    <br/>
+        <div style="text-align:center;">
+    <footer>
+      <p>2nd Floor, G-194, Sector-63, Noida (U.P.) - 201307, India<br/>
+      Web:<a href="www.stanratech.com"> www.stanratech.com </a>Email: <a href="info@stanratech.com">info@stanratech.com</a>
+      <br/>
+      Phone: +91-120-4127608</p>
+      </footer>
+      </div>
+    </div>  
+</section>
+</body>
+</html>
